@@ -21,7 +21,41 @@
 		DD4F7C4C13C322FA00825C6E /* StatusHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4F7C4A13C322FA00825C6E /* StatusHighlighted.png */; };
 		DDF4EFAC16C80A510044D141 /* Status@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF4EFAB16C80A510044D141 /* Status@2x.png */; };
 		DDF4EFAE16C80AD30044D141 /* StatusHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF4EFAD16C80AD30044D141 /* StatusHighlighted@2x.png */; };
+		E2FC91E718C45848002FD3EF /* StatusOccupied.png in Resources */ = {isa = PBXBuildFile; fileRef = E2FC91E518C45848002FD3EF /* StatusOccupied.png */; };
+		E2FC91E818C45848002FD3EF /* StatusOccupied@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2FC91E618C45848002FD3EF /* StatusOccupied@2x.png */; };
+		E2FC91F818C459E0002FD3EF /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2FC91F318C459AC002FD3EF /* SocketRocket.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2FC91F018C459AC002FD3EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2FC91E918C459AB002FD3EF /* SocketRocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F6B2082D1450F597009315AF;
+			remoteInfo = SocketRocket;
+		};
+		E2FC91F218C459AC002FD3EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2FC91E918C459AB002FD3EF /* SocketRocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F668C880153E91210044DBAC;
+			remoteInfo = SocketRocketOSX;
+		};
+		E2FC91F418C459AC002FD3EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2FC91E918C459AB002FD3EF /* SocketRocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F6BDA802145900D200FE3253;
+			remoteInfo = SRWebSocketTests;
+		};
+		E2FC91F618C459AC002FD3EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2FC91E918C459AB002FD3EF /* SocketRocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F62417E314D52F3C003CE997;
+			remoteInfo = TestChat;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DD4F7C0413C30F9F00825C6E /* Ocupado.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ocupado.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +84,9 @@
 		DD4F7C4A13C322FA00825C6E /* StatusHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StatusHighlighted.png; path = Ocupado/StatusHighlighted.png; sourceTree = "<group>"; };
 		DDF4EFAB16C80A510044D141 /* Status@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Status@2x.png"; path = "Ocupado/Status@2x.png"; sourceTree = "<group>"; };
 		DDF4EFAD16C80AD30044D141 /* StatusHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "StatusHighlighted@2x.png"; path = "Ocupado/StatusHighlighted@2x.png"; sourceTree = "<group>"; };
+		E2FC91E518C45848002FD3EF /* StatusOccupied.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StatusOccupied.png; path = Ocupado/StatusOccupied.png; sourceTree = "<group>"; };
+		E2FC91E618C45848002FD3EF /* StatusOccupied@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "StatusOccupied@2x.png"; path = "Ocupado/StatusOccupied@2x.png"; sourceTree = "<group>"; };
+		E2FC91E918C459AB002FD3EF /* SocketRocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SocketRocket.xcodeproj; path = ../socketrocket/SocketRocket.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +95,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD4F7C0913C30F9F00825C6E /* Cocoa.framework in Frameworks */,
+				E2FC91F818C459E0002FD3EF /* SocketRocket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +110,7 @@
 				DD4F7C0713C30F9F00825C6E /* Frameworks */,
 				DD4F7C0513C30F9F00825C6E /* Products */,
 				DD4F7C1013C30F9F00825C6E /* Ocupado-Info.plist */,
+				E2FC91E918C459AB002FD3EF /* SocketRocket.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -165,8 +204,21 @@
 				DDF4EFAB16C80A510044D141 /* Status@2x.png */,
 				DD4F7C4A13C322FA00825C6E /* StatusHighlighted.png */,
 				DDF4EFAD16C80AD30044D141 /* StatusHighlighted@2x.png */,
+				E2FC91E518C45848002FD3EF /* StatusOccupied.png */,
+				E2FC91E618C45848002FD3EF /* StatusOccupied@2x.png */,
 			);
 			name = Graphics;
+			sourceTree = "<group>";
+		};
+		E2FC91EA18C459AB002FD3EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2FC91F118C459AC002FD3EF /* libSocketRocket.a */,
+				E2FC91F318C459AC002FD3EF /* SocketRocket.framework */,
+				E2FC91F518C459AC002FD3EF /* SRWebSocketTests.octest */,
+				E2FC91F718C459AC002FD3EF /* TestChat.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,12 +259,49 @@
 			mainGroup = DD4F7BF913C30F9F00825C6E;
 			productRefGroup = DD4F7C0513C30F9F00825C6E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E2FC91EA18C459AB002FD3EF /* Products */;
+					ProjectRef = E2FC91E918C459AB002FD3EF /* SocketRocket.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				DD4F7C0313C30F9F00825C6E /* Ocupado */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E2FC91F118C459AC002FD3EF /* libSocketRocket.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSocketRocket.a;
+			remoteRef = E2FC91F018C459AC002FD3EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E2FC91F318C459AC002FD3EF /* SocketRocket.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SocketRocket.framework;
+			remoteRef = E2FC91F218C459AC002FD3EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E2FC91F518C459AC002FD3EF /* SRWebSocketTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SRWebSocketTests.octest;
+			remoteRef = E2FC91F418C459AC002FD3EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E2FC91F718C459AC002FD3EF /* TestChat.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = TestChat.app;
+			remoteRef = E2FC91F618C459AC002FD3EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		DD4F7C0213C30F9F00825C6E /* Resources */ = {
@@ -221,9 +310,11 @@
 			files = (
 				DD4F7C1F13C30F9F00825C6E /* MainMenu.xib in Resources */,
 				DD4F7C4113C31B4A00825C6E /* Panel.xib in Resources */,
+				E2FC91E818C45848002FD3EF /* StatusOccupied@2x.png in Resources */,
 				DD4F7C4B13C322FA00825C6E /* Status.png in Resources */,
 				DD4F7C4C13C322FA00825C6E /* StatusHighlighted.png in Resources */,
 				DDF4EFAC16C80A510044D141 /* Status@2x.png in Resources */,
+				E2FC91E718C45848002FD3EF /* StatusOccupied.png in Resources */,
 				DDF4EFAE16C80AD30044D141 /* StatusHighlighted@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,10 +417,16 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ocupado/Ocupado-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = "Ocupado/Ocupado-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/../socketrocket/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -339,10 +436,16 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ocupado/Ocupado-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = "Ocupado/Ocupado-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/../socketrocket/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -32,11 +32,17 @@ void *kContextActivePanel = &kContextActivePanel;
 {
     // Install icon into the menu bar
     self.menubarController = [[MenubarController alloc] init];
+	
+	// open websocket connection
+	[self.menubarController.webSocket open];
 }
 
 - (NSApplicationTerminateReply)applicationShouldTerminate:(NSApplication *)sender
 {
-    // Explicitly remove the icon from the menu bar
+    // close websocket connection
+	[self.menubarController.webSocket close];
+	
+	// Explicitly remove the icon from the menu bar
     self.menubarController = nil;
     return NSTerminateNow;
 }
